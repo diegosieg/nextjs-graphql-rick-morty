@@ -67,7 +67,7 @@ yarn test
 
 This application is deployed to Vercel:
 
-[![Access the application](https://vercel.com/button)](https://nextjs-graphql-rick-morty.vercel.app/)
+[Access the application](https://nextjs-graphql-rick-morty.vercel.app/)
 
 ## API
 
