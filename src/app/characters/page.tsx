@@ -32,7 +32,7 @@ export default function CharactersPage() {
   const [page, setPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState("");
   const [statusFilter, setStatusFilter] = useState("");
-  const { user, openModal } = useUser();
+  const { user, openModal, isLoadingUserData } = useUser();
   const router = useRouter();
   const cardBg = useColorModeValue("white", "gray.800");
   const borderColor = useColorModeValue("gray.200", "gray.700");
@@ -42,10 +42,11 @@ export default function CharactersPage() {
   });
 
   useEffect(() => {
-    if (!user.username) {
+    if (user.username === "" && !isLoadingUserData) {
+      // If the user is not logged in, open the modal
       openModal();
     }
-  }, [user, openModal]);
+  }, [user, openModal, isLoadingUserData]);
 
   const handlePageChange = (newPage: number) => {
     setPage(newPage);
