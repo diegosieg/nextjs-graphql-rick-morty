@@ -27,28 +27,31 @@ A web application that displays information about Rick and Morty, using the publ
 ### Installation
 
 1. Clone the repository:
-   \`\`\`bash
+
+   ```bash
    git clone https://github.com/diegosieg/nextjs-graphql-rick-morty.git
    cd nextjs-graphql-rick-morty
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
+   ```
 
 # or
 
 yarn install
-\`\`\`
+
+````
 
 3. Start the development server:
-   \`\`\`bash
+   ```bash
    npm run dev
 
 # or
 
 yarn dev
-\`\`\`
+````
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -56,13 +59,13 @@ yarn dev
 
 Run the tests with:
 
-\`\`\`bash
+```bash
 npm test
 
 # or
 
 yarn test
-\`\`\`
+```
 
 ## Deployment
 
@@ -77,4 +80,7 @@ This project uses the [Rick and Morty API](https://rickandmortyapi.com/documenta
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-\`\`\`
+
+```
+
+```
