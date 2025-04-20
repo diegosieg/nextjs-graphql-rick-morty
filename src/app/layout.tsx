@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rick and Morty Lover's App",
+  title: "Rick and Morty Explorer",
   description:
-    "Experimental project to display content for Rick and Morty Lovers",
+    "Experimental project to display content for Rick and Morty lovers",
 };
 
 export default function RootLayout({
