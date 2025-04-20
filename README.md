@@ -67,7 +67,7 @@ yarn test
 
 The application can be deployed to Vercel with a single click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/diegosieg/nextjs-graphql-rick-morty)
+[![Access the application](https://vercel.com/button)](https://nextjs-graphql-rick-morty.vercel.app/)
 
 ## API
 
