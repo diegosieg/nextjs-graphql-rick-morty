@@ -42,15 +42,12 @@ A web application that displays information about Rick and Morty, using the publ
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
+   # or
+   yarn dev
    ```
-
-# or
-
-yarn dev
-
-````
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -79,8 +76,3 @@ This project uses the [Rick and Morty API](https://rickandmortyapi.com/documenta
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-```
-
-```
-````
