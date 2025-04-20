@@ -158,7 +158,7 @@ export default function CharactersPage() {
                   <Skeleton height="auto" isLoaded={character.image !== ""}>
                     <Image
                       src={character.image}
-                      alt={character.name}
+                      alt={`${character.name}'s illustration`}
                       width="100%"
                       height="auto"
                     />

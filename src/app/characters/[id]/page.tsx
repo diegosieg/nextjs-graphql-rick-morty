@@ -112,8 +112,8 @@ export default function CharacterDetailPage() {
         <Image
           objectFit="cover"
           maxW={{ base: "100%", md: "300px" }}
-          src={character.image || "/placeholder.svg"}
-          alt={character.name}
+          src={character.image}
+          alt={`${character.name}'s illustration`}
         />
 
         <Stack>
