@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     <Container maxW="container.xl" py={8}>
-      <Box textAlign="center" mb={10}>
+      <Box textAlign="center" mb={100}>
         <Heading as="h1" size="2xl" mb={4}>
           Rick and Morty Explorer
         </Heading>

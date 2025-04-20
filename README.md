@@ -65,7 +65,7 @@ yarn test
 
 ## Deployment
 
-The application can be deployed to Vercel with a single click:
+This application is deployed to Vercel:
 
 [![Access the application](https://vercel.com/button)](https://nextjs-graphql-rick-morty.vercel.app/)
 
