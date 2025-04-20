@@ -7,7 +7,6 @@ import {
   ModalHeader,
   ModalFooter,
   ModalBody,
-  CloseButton,
   Button,
   FormControl,
   FormLabel,
@@ -73,7 +72,6 @@ export default function UserModal() {
             ? "Edit Your Profile"
             : "Welcome to Rick and Morty Explorer"}
         </ModalHeader>
-        {user.username && <CloseButton />}
         <ModalBody pb={6}>
           <FormControl isInvalid={!!errors.username} isRequired mb={4}>
             <FormLabel>Username</FormLabel>

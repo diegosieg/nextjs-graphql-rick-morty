@@ -40,8 +40,9 @@ export function UserProvider({ children }: Readonly<{ children: ReactNode }>) {
       } catch (error) {
         console.error("Failed to parse user data:", error);
       }
-      setIsLoadingUserData(false);
     }
+
+    setIsLoadingUserData(false);
   }, []);
 
   const updateUser = useCallback((userData: User) => {
