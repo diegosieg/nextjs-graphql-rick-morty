@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import {
   Modal,
   ModalOverlay,
@@ -23,6 +24,13 @@ export default function UserModal() {
   const [jobTitle, setJobTitle] = useState(user.jobTitle);
   const [errors, setErrors] = useState({ username: "", jobTitle: "" });
   const toast = useToast();
+
+  useEffect(() => {
+    if (user.username !== "") {
+      setUsername(user.username);
+      setJobTitle(user.jobTitle);
+    }
+  }, [user]);
 
   const validate = () => {
     const newErrors = { username: "", jobTitle: "" };

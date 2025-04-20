@@ -20,6 +20,7 @@ import {
   AlertIcon,
   AlertTitle,
   AlertDescription,
+  Skeleton,
 } from "@chakra-ui/react";
 import { useRouter } from "next/navigation";
 import { GET_CHARACTERS } from "@/lib/graphql/queries";
@@ -154,12 +155,14 @@ export default function CharactersPage() {
                     }
                   }}
                 >
-                  <Image
-                    src={character.image || "/placeholder.svg"}
-                    alt={character.name}
-                    width="100%"
-                    height="auto"
-                  />
+                  <Skeleton height="auto" isLoaded={character.image !== ""}>
+                    <Image
+                      src={character.image}
+                      alt={character.name}
+                      width="100%"
+                      height="auto"
+                    />
+                  </Skeleton>
                   <Box p={4}>
                     <Heading as="h3" size="md" mb={2} noOfLines={1}>
                       {character.name}

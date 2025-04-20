@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rick and Morty Explorer
+
+A web application that displays information about Rick and Morty, using the public GraphQL API.
+
+## Features
+
+- Browse characters from the Rick and Morty universe
+- View detailed information about each item
+- Basic User authentication with persistent storage
+- Responsive design for mobile, tablet, and desktop
+- Accessibility compliant
+
+## Tech Stack
+
+- Next.js with TypeScript
+- Chakra UI for styling and components
+- Apollo Client for GraphQL integration
+- React Testing Library for unit tests
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
+- Node.js 18.0.0 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   \`\`\`bash
+   git clone https://github.com/diegosieg/nextjs-graphql-rick-morty.git
+   cd nextjs-graphql-rick-morty
+   \`\`\`
+
+2. Install dependencies:
+   \`\`\`bash
+   npm install
+
 # or
+
+yarn install
+\`\`\`
+
+3. Start the development server:
+   \`\`\`bash
+   npm run dev
+
+# or
+
 yarn dev
+\`\`\`
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Testing
+
+Run the tests with:
+
+\`\`\`bash
+npm test
+
 # or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+yarn test
+\`\`\`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The application can be deployed to Vercel with a single click:
 
-## Learn More
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/diegosieg/nextjs-graphql-rick-morty)
 
-To learn more about Next.js, take a look at the following resources:
+## API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project uses the [Rick and Morty API](https://rickandmortyapi.com/documentation/#graphql) which is a free RESTful and GraphQL API.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the LICENSE file for details.
+\`\`\`
