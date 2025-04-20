@@ -34,23 +34,22 @@ A web application that displays information about Rick and Morty, using the publ
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
+   # or
+   yarn install
    ```
-
-# or
-
-yarn install
-
-````
 
 3. Start the development server:
    ```bash
    npm run dev
+   ```
 
 # or
 
 yarn dev
+
 ````
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -84,3 +83,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ```
 
 ```
+````
